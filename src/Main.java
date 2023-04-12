@@ -8,7 +8,7 @@ public class Main {
 
         while (true) {
             printMenu();
-            String userInput = scanner.nextLine();
+            String userInput = scanner.nextLine().trim();
             if (userInput.equals("Выход")) {
                 System.out.println("Работа приложения завершена");
                 break;
